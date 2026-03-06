@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,email,country,city,signup_date,customer_segment
+1,Name1,Surname1,user1@example.com,Australia,Rome,2024-09-14,New
+2,Name2,Surname2,user2@example.com,Spain,New York,2024-09-07,New
+3,Name3,Surname3,user3@example.com,Netherlands,New York,2024-11-13,New
+4,Name4,Surname4,user4@example.com,France,Madrid,2024-04-04,Returning
+5,Name5,Surname5,user5@example.com,Australia,Rome,2023-12-22,New
+6,Name6,Surname6,user6@example.com,Ireland,Toronto,2023-11-20,New
+7,Name7,Surname7,user7@example.com,Germany,Berlin,2023-05-13,New
+8,Name8,Surname8,user8@example.com,Australia,New York,2023-05-07,Returning
+9,Name9,Surname9,user9@example.com,Netherlands,Madrid,2023-04-16,New
+10,Name10,Surname10,user10@example.com,France,Rome,2024-08-26,New
+11,Name11,Surname11,user11@example.com,Spain,Berlin,2024-01-13,New
+12,Name12,Surname12,user12@example.com,Netherlands,Rome,2023-02-20,New
+13,Name13,Surname13,user13@example.com,Netherlands,Sydney,2023-01-29,Returning
+14,Name14,Surname14,user14@example.com,Germany,Madrid,2024-04-06,New
+15,Name15,Surname15,user15@example.com,Canada,Berlin,2023-10-23,New
+16,Name16,Surname16,user16@example.com,France,Dublin,2023-10-24,Returning
+17,Name17,Surname17,user17@example.com,UK,Paris,2024-02-11,Returning
+18,Name18,Surname18,user18@example.com,Netherlands,Paris,2024-09-04,New
+19,Name19,Surname19,user19@example.com,Canada,Berlin,2024-02-09,Returning
+20,Name20,Surname20,user20@example.com,UK,Rome,2023-12-12,VIP
+21,Name21,Surname21,user21@example.com,France,Madrid,2024-09-13,New
+22,Name22,Surname22,user22@example.com,USA,Paris,2024-02-24,Returning
+23,Name23,Surname23,user23@example.com,Ireland,Madrid,2023-07-01,Returning
+24,Name24,Surname24,user24@example.com,Canada,Paris,2023-01-01,New
+25,Name25,Surname25,user25@example.com,Italy,Sydney,2024-07-20,New
+26,Name26,Surname26,user26@example.com,USA,Rome,2024-01-06,New
+27,Name27,Surname27,user27@example.com,Ireland,Sydney,2024-10-22,Returning
+28,Name28,Surname28,user28@example.com,Germany,Paris,2024-03-06,VIP
+29,Name29,Surname29,user29@example.com,Australia,Dublin,2023-11-05,Returning
+30,Name30,Surname30,user30@example.com,Spain,Dublin,2023-05-17,New
+31,Name31,Surname31,user31@example.com,Italy,Sydney,2023-07-21,Returning
+32,Name32,Surname32,user32@example.com,Germany,Dublin,2024-03-11,Returning
+33,Name33,Surname33,user33@example.com,France,Paris,2023-11-09,New
+34,Name34,Surname34,user34@example.com,Germany,Berlin,2023-04-27,New
+35,Name35,Surname35,user35@example.com,Australia,Sydney,2024-10-27,Returning
+36,Name36,Surname36,user36@example.com,France,London,2024-07-28,New
+37,Name37,Surname37,user37@example.com,Italy,Rome,2023-09-01,Returning
+38,Name38,Surname38,user38@example.com,Australia,Dublin,2024-06-20,New
+39,Name39,Surname39,user39@example.com,UK,Dublin,2024-08-24,New
+40,Name40,Surname40,user40@example.com,Spain,New York,2023-03-16,New
+41,Name41,Surname41,user41@example.com,Italy,Toronto,2024-01-21,New
+42,Name42,Surname42,user42@example.com,UK,Sydney,2023-07-29,VIP
+43,Name43,Surname43,user43@example.com,Ireland,Amsterdam,2024-04-19,New
+44,Name44,Surname44,user44@example.com,Italy,Dublin,2024-02-22,Returning
+45,Name45,Surname45,user45@example.com,Ireland,Rome,2023-12-13,Returning
+46,Name46,Surname46,user46@example.com,France,London,2024-06-12,Returning
+47,Name47,Surname47,user47@example.com,UK,Dublin,2024-10-01,New
+48,Name48,Surname48,user48@example.com,Spain,London,2023-06-28,Returning
+49,Name49,Surname49,user49@example.com,Australia,Paris,2023-07-01,Returning
+50,Name50,Surname50,user50@example.com,Netherlands,Paris,2024-10-25,New
+51,Name51,Surname51,user51@example.com,Germany,Toronto,2023-01-25,New
+52,Name52,Surname52,user52@example.com,USA,Berlin,2023-06-29,Returning
+53,Name53,Surname53,user53@example.com,Spain,Amsterdam,2024-05-15,VIP
+54,Name54,Surname54,user54@example.com,UK,New York,2023-06-10,New
+55,Name55,Surname55,user55@example.com,Netherlands,Toronto,2023-06-26,Returning
+56,Name56,Surname56,user56@example.com,Spain,Madrid,2023-10-12,VIP
+57,Name57,Surname57,user57@example.com,UK,New York,2023-03-04,Returning
+58,Name58,Surname58,user58@example.com,Canada,Sydney,2024-10-23,VIP
+59,Name59,Surname59,user59@example.com,Canada,Rome,2024-10-27,Returning
+60,Name60,Surname60,user60@example.com,Ireland,Madrid,2023-06-05,New
+61,Name61,Surname61,user61@example.com,Spain,Madrid,2024-04-13,New
+62,Name62,Surname62,user62@example.com,Canada,Toronto,2023-02-18,New
+63,Name63,Surname63,user63@example.com,UK,Berlin,2023-03-25,Returning
+64,Name64,Surname64,user64@example.com,Ireland,Toronto,2023-12-27,Returning
+65,Name65,Surname65,user65@example.com,UK,Sydney,2024-11-19,New
+66,Name66,Surname66,user66@example.com,Ireland,Dublin,2023-05-28,Returning
+67,Name67,Surname67,user67@example.com,Spain,Dublin,2024-09-21,Returning
+68,Name68,Surname68,user68@example.com,Netherlands,Berlin,2023-12-08,Returning
+69,Name69,Surname69,user69@example.com,Australia,Sydney,2024-04-20,New
+70,Name70,Surname70,user70@example.com,Italy,Berlin,2023-03-04,Returning
+71,Name71,Surname71,user71@example.com,Netherlands,London,2023-12-26,New
+72,Name72,Surname72,user72@example.com,France,Dublin,2024-07-14,New
+73,Name73,Surname73,user73@example.com,UK,Madrid,2023-11-23,New
+74,Name74,Surname74,user74@example.com,France,Amsterdam,2023-05-21,New
+75,Name75,Surname75,user75@example.com,Netherlands,Rome,2023-08-03,New
+76,Name76,Surname76,user76@example.com,Ireland,Sydney,2024-03-10,Returning
+77,Name77,Surname77,user77@example.com,Italy,New York,2023-11-14,New
+78,Name78,Surname78,user78@example.com,Italy,Berlin,2023-02-01,Returning
+79,Name79,Surname79,user79@example.com,USA,Rome,2024-10-31,New
+80,Name80,Surname80,user80@example.com,Italy,New York,2023-10-12,VIP
+81,Name81,Surname81,user81@example.com,Australia,Rome,2023-11-01,VIP
+82,Name82,Surname82,user82@example.com,Italy,Amsterdam,2024-03-04,New
+83,Name83,Surname83,user83@example.com,Netherlands,New York,2024-04-21,New
+84,Name84,Surname84,user84@example.com,USA,Toronto,2023-10-13,New
+85,Name85,Surname85,user85@example.com,Netherlands,Paris,2023-05-24,Returning
+86,Name86,Surname86,user86@example.com,Netherlands,Toronto,2024-02-28,Returning
+87,Name87,Surname87,user87@example.com,Germany,Dublin,2023-01-19,New
+88,Name88,Surname88,user88@example.com,USA,Paris,2023-01-18,Returning
+89,Name89,Surname89,user89@example.com,Netherlands,Toronto,2024-08-12,New
+90,Name90,Surname90,user90@example.com,Germany,Paris,2024-01-06,New
+91,Name91,Surname91,user91@example.com,Germany,Paris,2023-06-24,Returning
+92,Name92,Surname92,user92@example.com,USA,Madrid,2023-07-13,New
+93,Name93,Surname93,user93@example.com,France,Berlin,2024-05-16,Returning
+94,Name94,Surname94,user94@example.com,Ireland,Berlin,2023-04-23,New
+95,Name95,Surname95,user95@example.com,Australia,Madrid,2023-04-24,VIP
+96,Name96,Surname96,user96@example.com,Ireland,Rome,2023-08-10,New
+97,Name97,Surname97,user97@example.com,Italy,London,2024-11-08,New
+98,Name98,Surname98,user98@example.com,Australia,Rome,2024-10-05,Returning
+99,Name99,Surname99,user99@example.com,Italy,New York,2023-09-21,New
+100,Name100,Surname100,user100@example.com,Netherlands,New York,2023-02-24,VIP
+101,Name101,Surname101,user101@example.com,UK,Paris,2024-10-04,Returning
+102,Name102,Surname102,user102@example.com,USA,Toronto,2024-04-02,Returning
+103,Name103,Surname103,user103@example.com,Australia,Toronto,2023-06-11,Returning
+104,Name104,Surname104,user104@example.com,Australia,Berlin,2024-01-15,VIP
+105,Name105,Surname105,user105@example.com,Netherlands,Sydney,2023-03-28,VIP
+106,Name106,Surname106,user106@example.com,France,Rome,2023-02-24,Returning
+107,Name107,Surname107,user107@example.com,Germany,Dublin,2024-04-20,Returning
+108,Name108,Surname108,user108@example.com,Netherlands,Amsterdam,2023-06-27,New
+109,Name109,Surname109,user109@example.com,Canada,Toronto,2024-01-26,New
+110,Name110,Surname110,user110@example.com,Germany,Amsterdam,2023-12-15,Returning
+111,Name111,Surname111,user111@example.com,USA,Paris,2023-01-08,New
+112,Name112,Surname112,user112@example.com,Germany,Amsterdam,2023-11-09,New
+113,Name113,Surname113,user113@example.com,France,Dublin,2024-03-18,New
+114,Name114,Surname114,user114@example.com,Germany,Madrid,2023-11-24,New
+115,Name115,Surname115,user115@example.com,USA,Dublin,2023-02-23,Returning
+116,Name116,Surname116,user116@example.com,France,Amsterdam,2023-08-27,VIP
+117,Name117,Surname117,user117@example.com,Ireland,Dublin,2023-08-17,New
+118,Name118,Surname118,user118@example.com,Australia,London,2024-08-01,Returning
+119,Name119,Surname119,user119@example.com,Australia,Paris,2023-02-20,Returning
+120,Name120,Surname120,user120@example.com,Italy,Rome,2024-08-31,New
+121,Name121,Surname121,user121@example.com,Ireland,Madrid,2024-08-26,Returning
+122,Name122,Surname122,user122@example.com,Ireland,Toronto,2023-09-21,New
+123,Name123,Surname123,user123@example.com,Germany,New York,2024-02-22,New
+124,Name124,Surname124,user124@example.com,Australia,Rome,2023-04-06,VIP
+125,Name125,Surname125,user125@example.com,USA,New York,2023-03-29,New
+126,Name126,Surname126,user126@example.com,Spain,Paris,2023-03-19,Returning
+127,Name127,Surname127,user127@example.com,Spain,Madrid,2023-10-15,Returning
+128,Name128,Surname128,user128@example.com,France,Berlin,2023-04-30,New
+129,Name129,Surname129,user129@example.com,Australia,Toronto,2024-05-05,Returning
+130,Name130,Surname130,user130@example.com,Australia,London,2024-03-27,VIP
+131,Name131,Surname131,user131@example.com,Spain,Berlin,2024-05-14,New
+132,Name132,Surname132,user132@example.com,Australia,Paris,2023-06-14,Returning
+133,Name133,Surname133,user133@example.com,Germany,Rome,2023-07-01,Returning
+134,Name134,Surname134,user134@example.com,Canada,London,2024-04-13,Returning
+135,Name135,Surname135,user135@example.com,UK,Dublin,2023-01-07,Returning
+136,Name136,Surname136,user136@example.com,Ireland,Amsterdam,2023-11-26,New
+137,Name137,Surname137,user137@example.com,Italy,London,2024-11-03,VIP
+138,Name138,Surname138,user138@example.com,France,Paris,2023-05-31,VIP
+139,Name139,Surname139,user139@example.com,Canada,Sydney,2023-03-26,Returning
+140,Name140,Surname140,user140@example.com,Spain,Amsterdam,2023-05-27,Returning
+141,Name141,Surname141,user141@example.com,Ireland,New York,2024-09-15,Returning
+142,Name142,Surname142,user142@example.com,Australia,Toronto,2024-01-16,New
+143,Name143,Surname143,user143@example.com,Italy,New York,2024-07-01,Returning
+144,Name144,Surname144,user144@example.com,Australia,London,2023-10-12,Returning
+145,Name145,Surname145,user145@example.com,USA,New York,2024-11-30,Returning
+146,Name146,Surname146,user146@example.com,USA,Paris,2023-03-23,Returning
+147,Name147,Surname147,user147@example.com,Italy,Dublin,2024-05-28,New
+148,Name148,Surname148,user148@example.com,Italy,Rome,2024-06-06,New
+149,Name149,Surname149,user149@example.com,Spain,Toronto,2024-01-21,New
+150,Name150,Surname150,user150@example.com,Italy,New York,2024-04-15,New
+151,Name151,Surname151,user151@example.com,Germany,New York,2023-04-29,Returning
+152,Name152,Surname152,user152@example.com,Australia,London,2024-01-31,Returning
+153,Name153,Surname153,user153@example.com,Canada,Rome,2024-06-15,Returning
+154,Name154,Surname154,user154@example.com,Netherlands,Berlin,2023-09-18,New
+155,Name155,Surname155,user155@example.com,Italy,New York,2023-09-13,Returning
+156,Name156,Surname156,user156@example.com,France,Paris,2023-08-14,New
+157,Name157,Surname157,user157@example.com,USA,Sydney,2023-02-22,New
+158,Name158,Surname158,user158@example.com,Germany,Toronto,2024-05-14,Returning
+159,Name159,Surname159,user159@example.com,Ireland,New York,2024-05-20,Returning
+160,Name160,Surname160,user160@example.com,Netherlands,Paris,2023-12-30,New
+161,Name161,Surname161,user161@example.com,Canada,Paris,2023-10-07,New
+162,Name162,Surname162,user162@example.com,Netherlands,Toronto,2024-08-15,New
+163,Name163,Surname163,user163@example.com,Italy,Berlin,2023-06-07,New
+164,Name164,Surname164,user164@example.com,Spain,Paris,2024-09-23,Returning
+165,Name165,Surname165,user165@example.com,USA,Sydney,2023-02-28,New
+166,Name166,Surname166,user166@example.com,USA,Paris,2023-05-08,Returning
+167,Name167,Surname167,user167@example.com,Ireland,Paris,2023-04-25,New
+168,Name168,Surname168,user168@example.com,Spain,Paris,2023-07-28,New
+169,Name169,Surname169,user169@example.com,Australia,Dublin,2024-06-09,New
+170,Name170,Surname170,user170@example.com,UK,Dublin,2024-06-04,New
+171,Name171,Surname171,user171@example.com,Germany,Berlin,2024-07-05,New
+172,Name172,Surname172,user172@example.com,USA,New York,2023-08-25,New
+173,Name173,Surname173,user173@example.com,France,Paris,2023-10-08,Returning
+174,Name174,Surname174,user174@example.com,USA,Rome,2023-12-25,New
+175,Name175,Surname175,user175@example.com,Netherlands,New York,2023-07-20,VIP
+176,Name176,Surname176,user176@example.com,USA,Berlin,2023-10-05,New
+177,Name177,Surname177,user177@example.com,USA,Madrid,2023-08-23,Returning
+178,Name178,Surname178,user178@example.com,UK,New York,2024-05-08,Returning
+179,Name179,Surname179,user179@example.com,UK,New York,2023-01-04,Returning
+180,Name180,Surname180,user180@example.com,Canada,Amsterdam,2024-10-27,Returning
+181,Name181,Surname181,user181@example.com,Australia,London,2024-03-17,Returning
+182,Name182,Surname182,user182@example.com,France,Amsterdam,2023-01-29,Returning
+183,Name183,Surname183,user183@example.com,USA,Sydney,2023-04-19,Returning
+184,Name184,Surname184,user184@example.com,USA,Dublin,2024-09-01,Returning
+185,Name185,Surname185,user185@example.com,Germany,Dublin,2023-03-16,New
+186,Name186,Surname186,user186@example.com,UK,London,2023-05-26,New
+187,Name187,Surname187,user187@example.com,France,Toronto,2023-05-08,Returning
+188,Name188,Surname188,user188@example.com,Ireland,Toronto,2023-02-11,Returning
+189,Name189,Surname189,user189@example.com,Canada,Berlin,2023-12-22,Returning
+190,Name190,Surname190,user190@example.com,Australia,London,2023-02-10,Returning
+191,Name191,Surname191,user191@example.com,Spain,New York,2023-02-03,VIP
+192,Name192,Surname192,user192@example.com,Australia,Toronto,2023-01-17,New
+193,Name193,Surname193,user193@example.com,Netherlands,Paris,2024-11-07,New
+194,Name194,Surname194,user194@example.com,USA,Rome,2023-06-02,New
+195,Name195,Surname195,user195@example.com,Canada,New York,2024-01-13,New
+196,Name196,Surname196,user196@example.com,Netherlands,Sydney,2024-08-10,Returning
+197,Name197,Surname197,user197@example.com,France,Paris,2024-08-21,New
+198,Name198,Surname198,user198@example.com,Spain,Paris,2024-09-20,Returning
+199,Name199,Surname199,user199@example.com,UK,London,2023-12-08,New
+200,Name200,Surname200,user200@example.com,Canada,Berlin,2023-01-27,Returning
+201,Name201,Surname201,user201@example.com,Canada,Sydney,2023-10-14,Returning
+202,Name202,Surname202,user202@example.com,USA,Toronto,2024-10-07,New
+203,Name203,Surname203,user203@example.com,Italy,London,2023-06-17,Returning
+204,Name204,Surname204,user204@example.com,Canada,Toronto,2024-09-01,New
+205,Name205,Surname205,user205@example.com,Germany,London,2023-09-25,New
+206,Name206,Surname206,user206@example.com,Spain,London,2024-03-30,New
+207,Name207,Surname207,user207@example.com,Spain,London,2024-11-15,New
+208,Name208,Surname208,user208@example.com,Germany,Berlin,2024-02-05,New
+209,Name209,Surname209,user209@example.com,Ireland,London,2024-04-20,Returning
+210,Name210,Surname210,user210@example.com,Germany,Madrid,2024-09-25,Returning
+211,Name211,Surname211,user211@example.com,Germany,Rome,2024-07-11,Returning
+212,Name212,Surname212,user212@example.com,Spain,Toronto,2024-07-29,New
+213,Name213,Surname213,user213@example.com,Australia,New York,2023-05-10,Returning
+214,Name214,Surname214,user214@example.com,Spain,Amsterdam,2023-12-29,New
+215,Name215,Surname215,user215@example.com,Italy,Sydney,2024-11-23,New
+216,Name216,Surname216,user216@example.com,USA,Dublin,2023-10-19,Returning
+217,Name217,Surname217,user217@example.com,Netherlands,Berlin,2024-01-06,New
+218,Name218,Surname218,user218@example.com,Australia,New York,2023-01-29,Returning
+219,Name219,Surname219,user219@example.com,UK,Paris,2023-05-29,Returning
+220,Name220,Surname220,user220@example.com,Netherlands,Madrid,2023-10-23,New
+221,Name221,Surname221,user221@example.com,USA,Dublin,2023-01-11,New
+222,Name222,Surname222,user222@example.com,Italy,Amsterdam,2024-05-26,New
+223,Name223,Surname223,user223@example.com,Italy,New York,2024-11-06,Returning
+224,Name224,Surname224,user224@example.com,UK,Dublin,2023-04-23,New
+225,Name225,Surname225,user225@example.com,Australia,New York,2023-07-06,New
+226,Name226,Surname226,user226@example.com,Ireland,Madrid,2023-08-15,New
+227,Name227,Surname227,user227@example.com,Germany,Amsterdam,2023-11-06,Returning
+228,Name228,Surname228,user228@example.com,Australia,Paris,2023-04-08,New
+229,Name229,Surname229,user229@example.com,Ireland,London,2023-02-24,New
+230,Name230,Surname230,user230@example.com,Italy,Toronto,2024-09-14,Returning
+231,Name231,Surname231,user231@example.com,Spain,Paris,2024-10-25,VIP
+232,Name232,Surname232,user232@example.com,USA,London,2024-02-10,New
+233,Name233,Surname233,user233@example.com,UK,Berlin,2023-03-10,New
+234,Name234,Surname234,user234@example.com,USA,Rome,2023-11-08,New
+235,Name235,Surname235,user235@example.com,France,Sydney,2023-10-16,Returning
+236,Name236,Surname236,user236@example.com,France,Sydney,2024-07-01,New
+237,Name237,Surname237,user237@example.com,Australia,Toronto,2023-05-28,Returning
+238,Name238,Surname238,user238@example.com,Italy,Amsterdam,2024-04-11,Returning
+239,Name239,Surname239,user239@example.com,Italy,Madrid,2023-09-01,Returning
+240,Name240,Surname240,user240@example.com,Germany,Amsterdam,2024-05-05,New
+241,Name241,Surname241,user241@example.com,Germany,Madrid,2024-05-21,Returning
+242,Name242,Surname242,user242@example.com,Germany,Amsterdam,2023-12-31,Returning
+243,Name243,Surname243,user243@example.com,Spain,Rome,2024-04-26,Returning
+244,Name244,Surname244,user244@example.com,Netherlands,Berlin,2023-07-20,New
+245,Name245,Surname245,user245@example.com,Canada,Berlin,2023-06-03,VIP
+246,Name246,Surname246,user246@example.com,Netherlands,London,2024-03-25,New
+247,Name247,Surname247,user247@example.com,USA,Dublin,2024-05-15,New
+248,Name248,Surname248,user248@example.com,Netherlands,Berlin,2023-03-14,New
+249,Name249,Surname249,user249@example.com,Spain,Berlin,2023-10-23,Returning
+250,Name250,Surname250,user250@example.com,USA,Paris,2023-01-17,New
+251,Name251,Surname251,user251@example.com,Netherlands,Paris,2024-10-02,New
+252,Name252,Surname252,user252@example.com,Spain,London,2023-08-05,New
+253,Name253,Surname253,user253@example.com,Canada,Dublin,2023-03-02,New
+254,Name254,Surname254,user254@example.com,Netherlands,Toronto,2024-09-07,Returning
+255,Name255,Surname255,user255@example.com,Spain,Paris,2023-02-11,Returning
+256,Name256,Surname256,user256@example.com,Germany,Toronto,2023-01-25,New
+257,Name257,Surname257,user257@example.com,Italy,New York,2023-02-08,New
+258,Name258,Surname258,user258@example.com,Germany,Paris,2023-05-11,Returning
+259,Name259,Surname259,user259@example.com,Italy,Rome,2024-05-12,New
+260,Name260,Surname260,user260@example.com,UK,Dublin,2023-08-17,New
+261,Name261,Surname261,user261@example.com,UK,London,2023-04-18,VIP
+262,Name262,Surname262,user262@example.com,UK,New York,2023-06-21,Returning
+263,Name263,Surname263,user263@example.com,Canada,Dublin,2024-03-10,New
+264,Name264,Surname264,user264@example.com,Germany,Rome,2024-04-22,Returning
+265,Name265,Surname265,user265@example.com,Italy,Dublin,2023-04-12,New
+266,Name266,Surname266,user266@example.com,Spain,Rome,2024-06-07,Returning
+267,Name267,Surname267,user267@example.com,USA,Rome,2023-10-02,New
+268,Name268,Surname268,user268@example.com,Spain,Toronto,2024-09-04,New
+269,Name269,Surname269,user269@example.com,USA,Amsterdam,2023-02-13,New
+270,Name270,Surname270,user270@example.com,France,New York,2023-01-17,VIP
+271,Name271,Surname271,user271@example.com,Spain,Dublin,2023-11-26,Returning
+272,Name272,Surname272,user272@example.com,Netherlands,Madrid,2024-07-22,New
+273,Name273,Surname273,user273@example.com,Netherlands,New York,2024-05-11,New
+274,Name274,Surname274,user274@example.com,Australia,Amsterdam,2023-01-12,Returning
+275,Name275,Surname275,user275@example.com,Germany,New York,2023-11-14,New
+276,Name276,Surname276,user276@example.com,USA,Berlin,2024-08-14,New
+277,Name277,Surname277,user277@example.com,USA,Madrid,2023-08-04,VIP
+278,Name278,Surname278,user278@example.com,Germany,Amsterdam,2023-12-05,New
+279,Name279,Surname279,user279@example.com,Canada,Toronto,2024-10-22,Returning
+280,Name280,Surname280,user280@example.com,Australia,Dublin,2023-03-22,VIP
+281,Name281,Surname281,user281@example.com,Canada,Sydney,2024-04-29,New
+282,Name282,Surname282,user282@example.com,Canada,Amsterdam,2024-01-09,New
+283,Name283,Surname283,user283@example.com,Canada,London,2023-07-19,New
+284,Name284,Surname284,user284@example.com,Germany,Dublin,2024-06-20,Returning
+285,Name285,Surname285,user285@example.com,Canada,Amsterdam,2024-04-10,Returning
+286,Name286,Surname286,user286@example.com,Netherlands,Berlin,2023-03-30,Returning
+287,Name287,Surname287,user287@example.com,UK,Sydney,2023-09-25,New
+288,Name288,Surname288,user288@example.com,France,Berlin,2024-10-16,Returning
+289,Name289,Surname289,user289@example.com,USA,Sydney,2024-07-24,VIP
+290,Name290,Surname290,user290@example.com,USA,London,2024-05-03,Returning
+291,Name291,Surname291,user291@example.com,France,Dublin,2024-06-21,VIP
+292,Name292,Surname292,user292@example.com,Germany,Toronto,2023-02-16,Returning
+293,Name293,Surname293,user293@example.com,Spain,Berlin,2023-10-15,Returning
+294,Name294,Surname294,user294@example.com,Germany,Berlin,2023-01-16,Returning
+295,Name295,Surname295,user295@example.com,USA,Rome,2024-02-05,New
+296,Name296,Surname296,user296@example.com,USA,Sydney,2023-03-27,New
+297,Name297,Surname297,user297@example.com,France,Paris,2023-09-07,Returning
+298,Name298,Surname298,user298@example.com,Canada,Dublin,2024-01-26,New
+299,Name299,Surname299,user299@example.com,Germany,Sydney,2023-12-01,Returning
+300,Name300,Surname300,user300@example.com,Italy,Rome,2024-09-20,VIP
+301,Name301,Surname301,user301@example.com,France,New York,2024-06-02,Returning
+302,Name302,Surname302,user302@example.com,Netherlands,Sydney,2023-05-17,New
+303,Name303,Surname303,user303@example.com,USA,Toronto,2024-11-18,New
+304,Name304,Surname304,user304@example.com,France,Dublin,2024-05-12,New
+305,Name305,Surname305,user305@example.com,Germany,Rome,2024-04-21,Returning
+306,Name306,Surname306,user306@example.com,USA,New York,2024-08-16,Returning
+307,Name307,Surname307,user307@example.com,Spain,Madrid,2023-08-11,VIP
+308,Name308,Surname308,user308@example.com,France,Rome,2024-01-07,New
+309,Name309,Surname309,user309@example.com,Australia,Madrid,2024-02-06,VIP
+310,Name310,Surname310,user310@example.com,USA,Dublin,2024-03-18,Returning
+311,Name311,Surname311,user311@example.com,Germany,Berlin,2024-05-04,New
+312,Name312,Surname312,user312@example.com,UK,Rome,2024-09-06,Returning
+313,Name313,Surname313,user313@example.com,Italy,London,2023-09-30,New
+314,Name314,Surname314,user314@example.com,Ireland,Madrid,2024-06-09,New
+315,Name315,Surname315,user315@example.com,Canada,Toronto,2023-06-08,Returning
+316,Name316,Surname316,user316@example.com,Ireland,London,2023-06-01,New
+317,Name317,Surname317,user317@example.com,Germany,Amsterdam,2024-09-11,Returning
+318,Name318,Surname318,user318@example.com,Netherlands,Amsterdam,2023-07-07,Returning
+319,Name319,Surname319,user319@example.com,Netherlands,New York,2023-04-08,Returning
+320,Name320,Surname320,user320@example.com,UK,Berlin,2023-05-11,New
+321,Name321,Surname321,user321@example.com,Canada,Dublin,2023-06-20,Returning
+322,Name322,Surname322,user322@example.com,Australia,Rome,2023-07-02,Returning
+323,Name323,Surname323,user323@example.com,UK,Paris,2023-12-30,Returning
+324,Name324,Surname324,user324@example.com,Ireland,Toronto,2023-02-08,New
+325,Name325,Surname325,user325@example.com,UK,Madrid,2024-06-10,New
+326,Name326,Surname326,user326@example.com,Ireland,Dublin,2024-05-11,Returning
+327,Name327,Surname327,user327@example.com,USA,London,2024-05-30,New
+328,Name328,Surname328,user328@example.com,Netherlands,Amsterdam,2023-12-15,Returning
+329,Name329,Surname329,user329@example.com,USA,Toronto,2024-02-01,Returning
+330,Name330,Surname330,user330@example.com,Italy,Paris,2023-06-10,Returning
+331,Name331,Surname331,user331@example.com,Canada,Rome,2023-01-16,Returning
+332,Name332,Surname332,user332@example.com,Australia,New York,2024-05-07,VIP
+333,Name333,Surname333,user333@example.com,Ireland,Paris,2024-03-01,Returning
+334,Name334,Surname334,user334@example.com,Australia,Toronto,2023-04-18,VIP
+335,Name335,Surname335,user335@example.com,Ireland,Paris,2024-03-25,Returning
+336,Name336,Surname336,user336@example.com,Germany,Toronto,2023-11-07,New
+337,Name337,Surname337,user337@example.com,UK,Toronto,2023-06-19,New
+338,Name338,Surname338,user338@example.com,Italy,Sydney,2024-06-29,Returning
+339,Name339,Surname339,user339@example.com,Netherlands,Madrid,2024-02-18,New
+340,Name340,Surname340,user340@example.com,Ireland,Amsterdam,2023-09-08,New
+341,Name341,Surname341,user341@example.com,Australia,Sydney,2023-05-21,New
+342,Name342,Surname342,user342@example.com,Italy,Rome,2023-10-01,Returning
+343,Name343,Surname343,user343@example.com,Spain,Sydney,2024-02-20,Returning
+344,Name344,Surname344,user344@example.com,Spain,Berlin,2024-08-30,Returning
+345,Name345,Surname345,user345@example.com,USA,Berlin,2023-02-08,Returning
+346,Name346,Surname346,user346@example.com,Netherlands,Amsterdam,2023-01-29,Returning
+347,Name347,Surname347,user347@example.com,Germany,Paris,2024-04-21,New
+348,Name348,Surname348,user348@example.com,Australia,Madrid,2023-11-14,Returning
+349,Name349,Surname349,user349@example.com,UK,Amsterdam,2023-09-02,New
+350,Name350,Surname350,user350@example.com,UK,Toronto,2024-11-27,VIP
+351,Name351,Surname351,user351@example.com,Australia,London,2023-09-29,Returning
+352,Name352,Surname352,user352@example.com,Canada,Madrid,2024-03-15,New
+353,Name353,Surname353,user353@example.com,Germany,Madrid,2023-08-27,New
+354,Name354,Surname354,user354@example.com,Italy,Toronto,2024-01-12,New
+355,Name355,Surname355,user355@example.com,Ireland,Toronto,2023-09-23,New
+356,Name356,Surname356,user356@example.com,Canada,New York,2023-12-25,New
+357,Name357,Surname357,user357@example.com,Ireland,Amsterdam,2023-12-06,Returning
+358,Name358,Surname358,user358@example.com,Ireland,Toronto,2024-01-24,Returning
+359,Name359,Surname359,user359@example.com,Canada,Berlin,2024-07-30,Returning
+360,Name360,Surname360,user360@example.com,USA,Rome,2024-11-19,VIP
+361,Name361,Surname361,user361@example.com,Spain,London,2023-01-03,Returning
+362,Name362,Surname362,user362@example.com,Ireland,Amsterdam,2024-03-04,Returning
+363,Name363,Surname363,user363@example.com,Canada,Dublin,2023-05-22,New
+364,Name364,Surname364,user364@example.com,Canada,Berlin,2024-01-11,Returning
+365,Name365,Surname365,user365@example.com,France,Paris,2024-10-31,New
+366,Name366,Surname366,user366@example.com,USA,Toronto,2023-11-20,VIP
+367,Name367,Surname367,user367@example.com,Netherlands,Dublin,2023-05-26,Returning
+368,Name368,Surname368,user368@example.com,France,Toronto,2023-10-20,Returning
+369,Name369,Surname369,user369@example.com,France,Madrid,2024-10-26,New
+370,Name370,Surname370,user370@example.com,Australia,Berlin,2024-03-07,Returning
+371,Name371,Surname371,user371@example.com,Spain,Madrid,2024-08-07,Returning
+372,Name372,Surname372,user372@example.com,Canada,New York,2024-02-03,New
+373,Name373,Surname373,user373@example.com,Spain,Madrid,2023-12-10,New
+374,Name374,Surname374,user374@example.com,Germany,New York,2023-05-20,Returning
+375,Name375,Surname375,user375@example.com,Australia,New York,2023-07-06,New
+376,Name376,Surname376,user376@example.com,Netherlands,Dublin,2023-03-02,VIP
+377,Name377,Surname377,user377@example.com,Spain,Toronto,2024-01-15,New
+378,Name378,Surname378,user378@example.com,UK,Paris,2024-03-15,New
+379,Name379,Surname379,user379@example.com,Ireland,Madrid,2023-11-15,Returning
+380,Name380,Surname380,user380@example.com,Germany,Berlin,2023-10-29,New
+381,Name381,Surname381,user381@example.com,USA,New York,2023-12-10,Returning
+382,Name382,Surname382,user382@example.com,Netherlands,Toronto,2023-01-11,New
+383,Name383,Surname383,user383@example.com,Germany,London,2023-03-03,New
+384,Name384,Surname384,user384@example.com,Ireland,Amsterdam,2023-08-14,Returning
+385,Name385,Surname385,user385@example.com,Australia,Dublin,2023-06-02,Returning
+386,Name386,Surname386,user386@example.com,Ireland,Paris,2024-07-17,Returning
+387,Name387,Surname387,user387@example.com,France,Sydney,2024-07-24,Returning
+388,Name388,Surname388,user388@example.com,Ireland,Dublin,2024-08-06,Returning
+389,Name389,Surname389,user389@example.com,France,London,2024-10-21,New
+390,Name390,Surname390,user390@example.com,Australia,Amsterdam,2024-07-28,New
+391,Name391,Surname391,user391@example.com,Italy,London,2023-11-06,VIP
+392,Name392,Surname392,user392@example.com,France,Madrid,2023-08-31,Returning
+393,Name393,Surname393,user393@example.com,USA,New York,2024-05-07,Returning
+394,Name394,Surname394,user394@example.com,Ireland,Paris,2024-01-01,New
+395,Name395,Surname395,user395@example.com,Ireland,Rome,2023-11-26,New
+396,Name396,Surname396,user396@example.com,USA,New York,2023-04-17,Returning
+397,Name397,Surname397,user397@example.com,UK,Rome,2023-08-14,Returning
+398,Name398,Surname398,user398@example.com,Canada,Amsterdam,2023-08-06,Returning
+399,Name399,Surname399,user399@example.com,Italy,Toronto,2024-05-20,Returning
+400,Name400,Surname400,user400@example.com,Netherlands,Sydney,2023-09-16,Returning
+401,Name401,Surname401,user401@example.com,France,Berlin,2024-05-31,New
+402,Name402,Surname402,user402@example.com,USA,New York,2023-02-23,New
+403,Name403,Surname403,user403@example.com,Australia,Paris,2023-02-16,New
+404,Name404,Surname404,user404@example.com,France,London,2024-11-19,New
+405,Name405,Surname405,user405@example.com,Canada,Paris,2024-06-04,Returning
+406,Name406,Surname406,user406@example.com,Australia,Amsterdam,2023-04-09,New
+407,Name407,Surname407,user407@example.com,Germany,Rome,2023-01-20,Returning
+408,Name408,Surname408,user408@example.com,Ireland,London,2024-07-26,New
+409,Name409,Surname409,user409@example.com,Germany,Berlin,2024-05-04,New
+410,Name410,Surname410,user410@example.com,France,Berlin,2024-02-23,New
+411,Name411,Surname411,user411@example.com,Canada,New York,2024-11-20,New
+412,Name412,Surname412,user412@example.com,Italy,Amsterdam,2023-03-03,Returning
+413,Name413,Surname413,user413@example.com,France,Toronto,2023-05-25,New
+414,Name414,Surname414,user414@example.com,USA,Amsterdam,2023-08-04,Returning
+415,Name415,Surname415,user415@example.com,Spain,Rome,2023-01-03,New
+416,Name416,Surname416,user416@example.com,France,Paris,2023-06-09,New
+417,Name417,Surname417,user417@example.com,Ireland,Berlin,2023-04-30,New
+418,Name418,Surname418,user418@example.com,Ireland,Paris,2023-03-30,Returning
+419,Name419,Surname419,user419@example.com,France,Paris,2023-11-25,Returning
+420,Name420,Surname420,user420@example.com,Australia,Paris,2024-08-02,New
+421,Name421,Surname421,user421@example.com,Spain,Berlin,2023-12-23,New
+422,Name422,Surname422,user422@example.com,USA,Dublin,2024-09-01,Returning
+423,Name423,Surname423,user423@example.com,France,Madrid,2023-09-24,New
+424,Name424,Surname424,user424@example.com,Australia,Rome,2024-09-08,New
+425,Name425,Surname425,user425@example.com,Ireland,Dublin,2023-11-19,Returning
+426,Name426,Surname426,user426@example.com,Ireland,Rome,2024-09-26,Returning
+427,Name427,Surname427,user427@example.com,Canada,London,2024-06-24,New
+428,Name428,Surname428,user428@example.com,France,Amsterdam,2024-10-10,VIP
+429,Name429,Surname429,user429@example.com,Spain,Amsterdam,2023-07-14,Returning
+430,Name430,Surname430,user430@example.com,UK,Sydney,2023-11-28,New
+431,Name431,Surname431,user431@example.com,Spain,Amsterdam,2023-06-19,Returning
+432,Name432,Surname432,user432@example.com,Ireland,Berlin,2024-06-04,Returning
+433,Name433,Surname433,user433@example.com,Ireland,Toronto,2024-04-07,New
+434,Name434,Surname434,user434@example.com,Germany,New York,2023-02-09,New
+435,Name435,Surname435,user435@example.com,Ireland,Sydney,2024-06-20,New
+436,Name436,Surname436,user436@example.com,USA,New York,2023-09-18,Returning
+437,Name437,Surname437,user437@example.com,Netherlands,Rome,2024-01-30,New
+438,Name438,Surname438,user438@example.com,France,New York,2023-08-14,Returning
+439,Name439,Surname439,user439@example.com,Spain,New York,2023-05-04,Returning
+440,Name440,Surname440,user440@example.com,Netherlands,Sydney,2023-02-07,New
+441,Name441,Surname441,user441@example.com,Australia,London,2023-11-24,Returning
+442,Name442,Surname442,user442@example.com,UK,Paris,2023-09-08,New
+443,Name443,Surname443,user443@example.com,USA,Amsterdam,2023-06-25,Returning
+444,Name444,Surname444,user444@example.com,Spain,Amsterdam,2024-08-24,Returning
+445,Name445,Surname445,user445@example.com,Netherlands,Berlin,2024-03-29,New
+446,Name446,Surname446,user446@example.com,UK,Sydney,2023-02-06,New
+447,Name447,Surname447,user447@example.com,Germany,Berlin,2023-11-12,New
+448,Name448,Surname448,user448@example.com,USA,Toronto,2024-11-18,New
+449,Name449,Surname449,user449@example.com,USA,Toronto,2024-08-15,New
+450,Name450,Surname450,user450@example.com,Germany,Berlin,2023-04-24,New
+451,Name451,Surname451,user451@example.com,France,Sydney,2023-02-09,VIP
+452,Name452,Surname452,user452@example.com,Germany,Berlin,2023-10-28,New
+453,Name453,Surname453,user453@example.com,USA,Amsterdam,2023-08-12,New
+454,Name454,Surname454,user454@example.com,USA,Dublin,2023-11-14,Returning
+455,Name455,Surname455,user455@example.com,Netherlands,Madrid,2023-12-15,New
+456,Name456,Surname456,user456@example.com,Ireland,New York,2023-04-25,VIP
+457,Name457,Surname457,user457@example.com,UK,Madrid,2024-11-28,Returning
+458,Name458,Surname458,user458@example.com,Germany,Sydney,2023-11-19,Returning
+459,Name459,Surname459,user459@example.com,UK,Madrid,2024-07-21,New
+460,Name460,Surname460,user460@example.com,Germany,Toronto,2023-02-09,New
+461,Name461,Surname461,user461@example.com,Australia,Rome,2023-02-09,New
+462,Name462,Surname462,user462@example.com,USA,New York,2023-10-16,Returning
+463,Name463,Surname463,user463@example.com,Ireland,Paris,2023-09-19,New
+464,Name464,Surname464,user464@example.com,Netherlands,Sydney,2023-08-04,New
+465,Name465,Surname465,user465@example.com,Ireland,New York,2023-05-27,VIP
+466,Name466,Surname466,user466@example.com,Ireland,Madrid,2023-12-02,New
+467,Name467,Surname467,user467@example.com,Ireland,Toronto,2023-06-17,New
+468,Name468,Surname468,user468@example.com,UK,London,2023-04-02,New
+469,Name469,Surname469,user469@example.com,Germany,Dublin,2023-12-19,VIP
+470,Name470,Surname470,user470@example.com,Italy,Paris,2024-07-24,New
+471,Name471,Surname471,user471@example.com,Australia,Dublin,2024-07-24,Returning
+472,Name472,Surname472,user472@example.com,Spain,New York,2024-11-11,Returning
+473,Name473,Surname473,user473@example.com,Ireland,Toronto,2023-12-29,New
+474,Name474,Surname474,user474@example.com,France,Toronto,2024-07-10,Returning
+475,Name475,Surname475,user475@example.com,UK,Madrid,2023-12-11,New
+476,Name476,Surname476,user476@example.com,Netherlands,Amsterdam,2024-11-23,New
+477,Name477,Surname477,user477@example.com,Spain,Madrid,2023-06-19,Returning
+478,Name478,Surname478,user478@example.com,Italy,Amsterdam,2023-12-22,Returning
+479,Name479,Surname479,user479@example.com,France,Amsterdam,2023-07-10,Returning
+480,Name480,Surname480,user480@example.com,Italy,Paris,2024-10-28,Returning
+481,Name481,Surname481,user481@example.com,Spain,Madrid,2024-02-26,New
+482,Name482,Surname482,user482@example.com,Ireland,London,2024-11-30,New
+483,Name483,Surname483,user483@example.com,France,Berlin,2023-01-07,New
+484,Name484,Surname484,user484@example.com,Italy,Berlin,2023-05-13,New
+485,Name485,Surname485,user485@example.com,Netherlands,Madrid,2024-07-10,New
+486,Name486,Surname486,user486@example.com,Germany,Madrid,2023-01-31,New
+487,Name487,Surname487,user487@example.com,USA,Dublin,2024-06-18,New
+488,Name488,Surname488,user488@example.com,Germany,Paris,2024-03-01,New
+489,Name489,Surname489,user489@example.com,Spain,Madrid,2024-01-29,Returning
+490,Name490,Surname490,user490@example.com,UK,Dublin,2024-11-02,Returning
+491,Name491,Surname491,user491@example.com,USA,Amsterdam,2023-12-29,New
+492,Name492,Surname492,user492@example.com,Australia,Toronto,2024-03-12,VIP
+493,Name493,Surname493,user493@example.com,Netherlands,Toronto,2024-10-31,Returning
+494,Name494,Surname494,user494@example.com,Australia,Amsterdam,2024-07-04,New
+495,Name495,Surname495,user495@example.com,France,Sydney,2023-03-23,Returning
+496,Name496,Surname496,user496@example.com,USA,Dublin,2023-12-22,Returning
+497,Name497,Surname497,user497@example.com,Australia,Dublin,2023-09-15,Returning
+498,Name498,Surname498,user498@example.com,Australia,Amsterdam,2024-08-11,New
+499,Name499,Surname499,user499@example.com,Italy,London,2024-06-07,Returning
+500,Name500,Surname500,user500@example.com,Germany,Rome,2023-10-22,New
