@@ -136,30 +136,61 @@ The analysis was conducted using the following tools:
 - VS Code & Jupyter Notebook
   
 
-## Data Preparation
+## Data Preparation & KPI Metrics
 
-Several preprocessing steps were performed to prepare the datasets for analysis.
+Several preprocessing and metric calculation steps were performed to ensure the datasets were clean, consistent, and ready for analysis.
 
-The `order_date` column was converted to datetime format to enable time-based analysis.
+### 1. Quick Data Overview
+- Applied `.head()` and inspected columns for all datasets: `orders`, `customers`, `products`, `campaigns`.  
+- Verified column names, data types, and initial sample values.  
 
-Additional time-based features were created:
+### 2. Quick Data Checks
+- Performed preliminary validation for each dataset:  
+  - **Orders**: checked `quantity`, `total_price`, `order_status`  
+  - **Customers**: verified `customer_segment`, `signup_date`, `country`/`city`  
+  - **Products**: reviewed `price`, `cost`, `category`  
+  - **Campaigns**: inspected `start_date`, `end_date`, `budget`, `clicks`, `conversions`  
 
-- **Year** – order year  
-- **Month** – order month  
-- **Year_Month** – monthly period used for trend analysis  
+### 3. Date / Time Preprocessing
+- Converted all date columns from strings to `datetime` objects (`pd.to_datetime`) for accurate time-based analysis.  
+- Applied to:  
+  - **Orders**: `order_date`  
+  - **Customers**: `signup_date`  
+  - **Campaigns**: `start_date` and `end_date`  
 
-Datasets were joined using relational keys:
+### 4. Feature Engineering
+- Created new columns to support trend analysis and aggregation:  
+  - **Orders**: `Year`, `Month`, `Year_Month` based on `order_date`  
+  - **Customers**: `Year`, `Month` based on `signup_date`  
+  - **Campaigns**: `Start_Year`, `Start_Month`, `End_Year`, `End_Month` based on campaign dates  
 
-- `customer_id` → linking customers and orders  
-- `product_id` → linking products and orders  
+### 5. KPI / Metrics Calculation
+To measure marketing performance, several key metrics were calculated for each campaign:
 
-This process enabled integrated analysis across customers, products, and transactions.
+- **Conversion Rate (CR)** = `conversions / clicks`  
+- **Cost per Click (CPC)** = `budget / clicks`  
+- **Cost per Acquisition (CPA)** = `budget / conversions`  
 
-Additional calculated fields were created, including:
+Handling divide-by-zero:  
+- Replaced infinite values from 0 conversions or clicks with `pd.NA` to avoid errors in analysis.
 
-**Revenue = quantity × price**
+Example of calculated metrics for campaigns:
 
-This metric was used to analyze product performance and sales trends.
+| campaign_id | campaign_name | CR   | CPC    | CPA    |
+|------------:|---------------|------|--------|--------|
+| 1           | Campaign_1    | 0.441 | 2.27   | 2.27   |
+| 2           | Campaign_2    | 0.006 | 8.64   | 8.63   |
+| 3           | Campaign_3    | 0.119 | 2.36   | 2.36   |
+
+These metrics provide the foundation for evaluating campaign effectiveness and optimizing marketing spend.
+
+### 6. Data Preparation Complete
+- All datasets are now ready for:  
+  - relational joins between orders, customers, products, and campaigns  
+  - KPI and revenue analysis  
+  - customer segmentation and campaign performance evaluation  
+
+This structured preparation ensures a clean foundation for subsequent analysis of marketing, sales, and customer behavior. 
 
 
 ## Sales Analysis
