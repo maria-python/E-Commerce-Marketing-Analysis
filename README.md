@@ -44,7 +44,7 @@ The main objectives of this analysis are:
 - Provide business recommendations for improving marketing effectiveness and revenue growth
 
 
-# Analysis Hypotheses
+## Analysis Hypotheses
 
 ## Dataset Overview
 
@@ -122,7 +122,7 @@ sales_analysis
 ```
 
 
-# Tools & Technologies
+## Tools & Technologies
 
 The analysis was conducted using the following tools:
 
@@ -136,9 +136,9 @@ The analysis was conducted using the following tools:
 - VS Code & Jupyter Notebook
   
 
-# Data Preparation
+## Data Preparation
 
-# Sales Analysis
+## Sales Analysis
 
 # Customer Analysis
 
